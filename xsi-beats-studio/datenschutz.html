@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090a10">
+  <meta name="robots" content="index,follow">
+  <title>Datenschutz — Xsi Beats Studio</title>
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <style>
+    :root{color-scheme:dark;--bg:#090a10;--surface:#11131b;--line:rgba(255,255,255,.1);--text:#f3f3f7;--muted:#a4a7b6;--accent:#49e4c3;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+    *{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 75% 5%,rgba(167,139,250,.16),transparent 36%),var(--bg);color:var(--text);padding:24px}
+    main{width:min(900px,100%);margin:0 auto;border:1px solid var(--line);border-radius:22px;background:rgba(17,19,27,.9);padding:clamp(22px,5vw,50px);box-shadow:0 24px 80px rgba(0,0,0,.3)}
+    .kicker{color:var(--accent);font-size:10px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;margin:0 0 12px}h1{font-size:clamp(30px,5vw,44px);letter-spacing:-.05em;margin:0 0 22px}h2{font-size:16px;margin:28px 0 9px}p,li,address{font-size:13px;line-height:1.75;color:var(--muted)}address{font-style:normal}strong{color:var(--text)}a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}.notice{margin:22px 0;padding:12px 14px;border:1px solid rgba(73,228,195,.2);border-radius:10px;background:rgba(73,228,195,.05);font-size:11px;line-height:1.6;color:var(--muted)}footer{display:flex;gap:16px;justify-content:space-between;border-top:1px solid var(--line);padding-top:18px;margin-top:32px;font-size:11px;color:#7d8294}
+    @media(max-width:620px){body{padding:12px}main{border-radius:16px}footer{flex-wrap:wrap}}
+  </style>
+</head>
+<body>
+  <main>
+    <p class="kicker">Xsi Beats Studio · XsiKOM Digital Projects Group</p>
+    <h1>Datenschutzerklärung</h1>
+    <p>Wir nehmen den Schutz personenbezogener Daten ernst. Diese Erklärung beschreibt die Verarbeitung durch die aktuelle statische Browser-Version von Xsi Beats Studio.</p>
+    <h2>1. Verantwortlicher</h2>
+    <address><strong>XsiKOM Projects GROUP</strong><br>Komi TEVI<br>Am Königsfloß 12<br>55252 Mainz-Kastel, Deutschland<br>E-Mail: <a href="mailto:xsikom.digital.group@gmail.com">xsikom.digital.group@gmail.com</a></address>
+    <h2>2. Hosting und technische Zugriffsdaten</h2>
+    <p>Die Anwendung ist für die Bereitstellung über Vercel vorbereitet. Beim Aufruf einer Website verarbeitet der Hosting-Anbieter technisch notwendige Verbindungsdaten (zum Beispiel IP-Adresse, Zeitpunkt, angeforderte Ressource und Browser-/Geräteinformationen), um die Website auszuliefern, Missbrauch abzuwehren und den Betrieb zu sichern. Umfang und Speicherfristen richten sich nach der tatsächlichen Vercel-Konfiguration und den dort geltenden Datenschutzinformationen. Für die Veröffentlichung sind Auftragsverarbeitungsvertrag, Speicherregion und aktuelle Anbieterangaben zu prüfen.</p>
+    <h2>3. Audiodateien und lokale Funktionen</h2>
+    <p>In der Browser-Demo ausgewählte Audiodateien werden lokal im Browser abgespielt und nicht durch die Anwendung an XsiKOM hochgeladen. Die Anwendung nutzt für die Wiedergabe Web Audio. Die PWA kann ihre statischen App-Dateien im Service-Worker-Cache des Browsers speichern. Bluetooth-Geräteauswahl, BLE-Verbindungen und Audioausgabewahl werden nur nach einer Browseraktion/-freigabe gestartet. Geräteinformationen werden in dieser Demo nicht an einen eigenen Server übermittelt.</p>
+    <h2>4. Cookies, Analyse und Drittanbieter</h2>
+    <p>Die aktuelle Version bindet keine Analyse-, Werbe- oder Tracking-Dienste und keine externen Schriftarten ein. Sie setzt keine Tracking-Cookies. Session-Einstellungen werden in localStorage und importierte Audiodateien in IndexedDB auf dem Gerät gespeichert; der Service Worker kann statische App-Dateien cachen. Diese lokalen Daten können in den Website-/Browserdaten gelöscht werden. Plattform-Uploads, OAuth-Logins und Suno-/Streaming-Verbindungen sind in dieser Version nicht aktiviert.</p>
+    <h2>5. Rechtsgrundlagen und Ihre Rechte</h2>
+    <p>Technische Verarbeitung zur sicheren Bereitstellung kann auf Art. 6 Abs. 1 lit. f DSGVO beruhen; optionale Gerätezugriffe erfolgen erst nach Ihrer Aktion und den Berechtigungsdialogen des Browsers. Sie haben im Rahmen der gesetzlichen Voraussetzungen Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch sowie das Recht, sich bei einer Datenschutz-Aufsichtsbehörde zu beschweren. Anfragen richten Sie an die oben genannte E-Mail-Adresse.</p>
+    <div class="notice"><strong>Hinweis zur Veröffentlichung:</strong> Diese Erklärung ist auf die gegenwärtige statische Demo zugeschnitten. Vor Livegang müssen Hosting-Region, Vercel-Auftragsverarbeitung/Logs und tatsächlich aktivierte Funktionen mit der finalen Deployment-Konfiguration abgeglichen werden.</div>
+    <footer><span>© <span id="year">2026</span> XsiKOM Projects GROUP</span><span><a href="./index.html">Zurück zum Studio</a> · <a href="./impressum.html">Impressum</a></span></footer>
+  </main>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
